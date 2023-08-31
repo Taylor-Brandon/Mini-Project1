@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
 </head>
 
 <body>
@@ -17,13 +20,17 @@
         </nav>
         <h1>My New Website</h1>
     </header>
-    <section>
+    <main>
+      
+    <figure>
         <img src="./images/image_1.png" alt="Coming soon box image">
-        <p>Welcome! This is the landing page for my first website. This will be used as a starting point for my
-            portfolio, which will be coming soon!</p>
-
+        <figcaption class="img-par">Welcome! This is the landing page for my first website. This will be used as a
+            starting point
+            for my
+            portfolio, which will be coming soon!</figcaption>
+    </figure>
+    <section class="contact-form">
         <h2>Contact</h2>
-
         <form id="contact">
             <p>
                 <input type="input" id="name-input" name="name" />
@@ -33,9 +40,12 @@
                 <input type="input" id="email-input" name="email" />
                 <label for="email">Email:</label>
             </p>
+        </p>
         </form>
         <button class="submit-button" type="submit">Send</button>
     </section>
+    </main>
+
     <footer>
         <p>Thank You For Visiting! 😁</p>
     </footer>
